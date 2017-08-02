@@ -1,0 +1,16 @@
+[gd_scene load_steps=2 format=1]
+
+[ext_resource path="res://sprites/bola.png" type="Texture" id=1]
+
+[node name="Node2D" type="Node2D"]
+
+transform/pos = Vector2( 396, 218 )
+transform/scale = Vector2( 2.03125, 1.84375 )
+
+[node name="bola" type="Sprite" parent="."]
+
+transform/pos = Vector2( 0.324783, -0.677979 )
+transform/scale = Vector2( 0.535043, 0.516949 )
+texture = ExtResource( 1 )
+
+

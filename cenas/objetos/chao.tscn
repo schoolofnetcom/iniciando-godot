@@ -1,0 +1,15 @@
+[gd_scene load_steps=2 format=1]
+
+[ext_resource path="res://sprites/chao.png" type="Texture" id=1]
+
+[node name="Node2D" type="Node2D"]
+
+transform/pos = Vector2( 449, 254 )
+transform/scale = Vector2( 6.25, 3.90625 )
+
+[node name="chao" type="Sprite" parent="."]
+
+transform/scale = Vector2( 0.0633, 0.07503 )
+texture = ExtResource( 1 )
+
+
